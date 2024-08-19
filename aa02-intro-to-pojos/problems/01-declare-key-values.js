@@ -3,12 +3,18 @@ Given the following declaration of an object, `obj` below, declare values so
 that the print statements output what is expected. Try using both dot and
 bracket notation.
 */
-
-const obj = {};
+const obj = {}
 
 /******************** DO NOT MODIFY ANY CODE ABOVE THIS LINE *****************/
 
 // Your code here 
+
+obj.firstKey = 'firstValue'
+obj.numeric = 2
+obj['boolean'] = false
+obj.object = {
+    hello : "world!"
+}
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 
