@@ -10,6 +10,8 @@ const obj = {
 
 // Your code here 
 
+delete obj.first
+
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 
 console.log(obj); //=> {}
