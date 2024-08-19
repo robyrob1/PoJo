@@ -5,6 +5,12 @@ loop through all of the objects and print the "name" key from each object.
 
 // Your code here 
 
+function printNames(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i].name)
+  }
+}
+
 // Example:
 // printNames([
 //   { name: "Joey", likes: ["sandwiches"] },
