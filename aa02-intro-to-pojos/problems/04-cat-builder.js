@@ -7,6 +7,14 @@ arguments passed in.
 
 // Your code here 
 
+function catBuilder(name, color, toys) {
+  return {
+    name: name,
+    color: color,
+    toys: toys,
+  }
+}
+
 // console.log(catBuilder("Whiskers", "black", ["scratching-post", "yarn"]));
 // //=> { name: 'Whiskers', color: 'black', toys: ['scratching-post', 'yarn'] }
 
